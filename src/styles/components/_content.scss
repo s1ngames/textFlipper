@@ -1,0 +1,81 @@
+.error-message{
+    color:red;
+}
+
+.container{
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 $m-size;
+}
+
+.text-area{
+    width: 99%;
+    height: 10rem;
+    text-align: right;
+    background: #c1c1c1;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    max-width: 99%;
+    min-width: 99%;
+    direction: rtl;
+
+}
+
+.history{
+    text-align: right;
+    direction: rtl;
+    margin-right: 0;
+}
+
+.text_copied{
+    text-align: center;
+    direction: rtl;
+}
+
+.result_p{
+   
+    margin-top: 0;
+    padding-top:0;
+    padding: 0.5rem;
+    text-align: right;
+    width :100%;
+    max-width: 59rem;
+    color: #c1c1c1;
+    direction: rtl;
+}
+
+.copy_button{
+    width: 100%;
+    color: #C1C1C1;
+    font-weight: 500;
+    font-size: 2rem;
+    background: #9245C4;
+    border: 0;
+    padding: 1.5rem
+}
+
+.history_copy_button{
+    color: #C1C1C1;
+    font-weight: 500;
+    font-size:$m-size;
+    background: #9245C4;
+    border: 0;
+    padding: 0.5rem,1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 0rem;
+}
+
+.history_copy_text{
+    color: #C1C1C1;
+    max-width: 60rem;
+    margin: 0 auto;
+    direction: rtl;
+    padding: 0 $m-size;
+
+}
+
+.made-by{
+    margin-top: 20rem;
+    text-align: center;
+}
